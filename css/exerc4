@@ -1,0 +1,29 @@
+<html>
+
+	<head>
+		<meta charset = "UTF-8" />
+		<title>Instituto de Computação</title>
+
+		<style type="text/css">
+		p {
+			border: 10px solid black;
+			border-top-right-radius: 50px;
+			border-bottom-left-radius: 30px;
+			background-color: lightgray;
+			width: 180px
+			padding-bottom: 100px ;
+			margin-bottom: 100px;
+		}
+		body{
+			width: 800px;
+		}
+
+		</style>
+	</head>
+
+	<body>
+		<p>
+	A história de Breaking Bad se passa em Albuquerque, Novo México (onde também foi produzida), e gira em torno de Walter White (Bryan Cranston), um professor de química do ensino secundário/médio pouco apreciado, com um filho adolescente que sofre de paralisia cerebral (RJ Mitte) e uma esposa grávida, Skyler (Anna Gunn). Quando o já tenso White é diagnosticado com câncer do pulmão, sofre um colapso e abraça uma vida de crimes, produzindo e vendendo metanfetaminas com o seu ex-aluno Jesse Pinkman (Aaron Paul), com o objectivo de assegurar o futuro financeiro de sua família no caso da sua morte. administrativas.
+		</p>			
+	</body>
+<html>
