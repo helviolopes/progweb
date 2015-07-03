@@ -1,0 +1,47 @@
+<html>
+	<head>
+		<title> House of Cards </title>
+		<meta charset="utf-8"/>
+		<scripts>
+		</scripts>
+	</head>
+	<body>
+		<script type="text/javascript">
+			function getLikes(){
+				var l = document.getElementById("like");
+				l.value = parseInt(l.value) + 1;
+			}
+
+			function getComent(){
+				var l = document.getElementById("coment");
+				l.value = parseInt(l.value) + 1;
+			}
+
+
+		</script>
+
+		<table>
+			<tr>
+
+		<td> <img id="house" src="C:\Users\Asus\Documents\pweb\javascript\exerc5.jpg" width= "200" height= "150"></td>
+		<td><h1>House of Cards</h1></td>
+			</tr>
+		</table>
+
+		<p>
+		Remake de uma série da BBC dos anos 90, House of Cards tem como protagonista Frank Underwood (Kevin Spacey), um político que lidera a bancada majoritária da Câmara dos Representantes dos Estados Unidos.
+
+		Underwood fica decepcionado quando descobre que não ocupará o cargo de Secretário de Estado da nova gestão, posto que foi prometido anteriormente a ele, pelo agora recém-eleito presidente. Em vez de aceitar a derrota, Frank decide usar seu conhecimento sobre os bastidores da política para orquestrar sua vingança.
+		</p>
+
+		<input id="like" type="label" value="0" readonly="true" class="like"/> pessoas curtiram isso
+		<input name="curtir "type="button" value="Curtir" onclick="getLikes()">
+		<br/>
+
+		<textarea name="comentario" id="coment" rows="7" cols="70"></textarea>
+		<br/>		
+		<input name="enviar" type="button" value="Enviar" onclick="getComent()">
+
+
+	</body>
+</html>
